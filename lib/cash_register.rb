@@ -1,3 +1,3 @@
-class cash_register
+class CashRegister
 
 end
