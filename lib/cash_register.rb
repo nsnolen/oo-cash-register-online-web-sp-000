@@ -26,6 +26,6 @@ class CashRegister
 
   def last_transaction(title, price)
     self.total = total - (title * price)
-    
+
   end
 end
