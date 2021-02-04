@@ -13,7 +13,7 @@ class CashRegister
   end
 
   def apply_discount
-    self.total.sub(/\.?0+$/, '') = total * ((100.00 - discount)/100)
+    self.total = total * ((100.00 - discount)/100)
     "After the discount, the total comes to $#{self.total}"
 
   end
