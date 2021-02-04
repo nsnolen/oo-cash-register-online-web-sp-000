@@ -12,7 +12,7 @@ class CashRegister
     self.total += price * quantity
     if discount > 0
       self.total * discount
-      
+
   end
 
 end
